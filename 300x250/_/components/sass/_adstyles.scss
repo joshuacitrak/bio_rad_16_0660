@@ -1,0 +1,223 @@
+ body {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font: inherit;
+     font-size: 100%;
+     vertical-align: baseline;
+ }
+ 
+ #bradContainer {
+     font-family: sans-serif;
+     position: relative;
+     background: #00a650;
+     width: 300px;
+     height: 250px;
+     border: 1px solid #00a650;
+     position: relative;
+     overflow: hidden;
+     text-decoration: none;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; // IE8
+     /* This works in IE 8 & 9 too */
+     /* ... but also 5, 6, 7 */
+     filter: alpha(opacity=0); // IE 5-7
+     /* Modern Browsers */
+     opacity: 0;
+     #bradContent {
+         cursor: pointer;
+         width: 100%;
+         height: 100%;
+         #bradBackground {
+             width: 350px;
+             height: 250px;
+             position: absolute;
+             left: -50px;
+             top: 0px;
+             background-image: url(../img/bg.jpg);
+         }
+         #mag_content {
+             #mag {
+                 width: 300px;
+                 height: 250px;
+                 position: absolute;
+                 left: 0px;
+                 top: 0px;
+                 background-image: url(../img/mag_bg.png);
+             }
+             #mag_glass {
+                 width: 232px;
+                 height: 229px;
+                 position: absolute;
+                 left: 36px;
+                 top: -32px;
+                 background-image: url(../img/glass.png);
+             }
+             #mag_txt_wrapper {
+                 position: absolute;
+                 overflow: hidden;
+                 left: 16px;
+                 top: -5px;
+                 width: 242px;
+                 height: 193px;
+                 #mag_txt {
+                     width: 354px;
+                     height: 202px;
+                     position: absolute;
+                     left: -12px;
+                     top: 0px;
+                     background-image: url(../img/t1.png);
+                 }
+             }
+         }
+         #t2 {
+             width: 166px;
+             height: 25px;
+             position: absolute;
+             left: 70px;
+             top: 23px;
+             background-image: url(../img/t2.png);
+         }
+         #t3 {
+             width: 188px;
+             height: 47px;
+             position: absolute;
+             left: 57px;
+             top: 60px;
+             background-image: url(../img/t3.png);
+         }
+         #t4 {
+             width: 138px;
+             height: 35px;
+             position: absolute;
+             left: 86px;
+             top: 124px;
+             background-image: url(../img/t4.png);
+         }
+         #april {
+             width: 66px;
+             height: 17px;
+             position: absolute;
+             left: 104px;
+             top: 133px;
+             background-image: url(../img/april.png);
+         }
+         #igfbp {
+             width: 85px;
+             height: 18px;
+             position: absolute;
+             left: 70px;
+             top: 64px;
+             background-image: url(../img/igfbp.png);
+         }
+         #il6 {
+             width: 39px;
+             height: 18px;
+             position: absolute;
+             left: 80px;
+             top: 18px;
+             background-image: url(../img/il6.png);
+         }
+         #il8 {
+             width: 39px;
+             height: 18px;
+             position: absolute;
+             left: 136px;
+             top: 87px;
+             background-image: url(../img/il8.png);
+         }
+         #il10 {
+             width: 52px;
+             height: 18px;
+             position: absolute;
+             left: 168px;
+             top: 64px;
+             background-image: url(../img/il10.png);
+         }
+         #il26 {
+             width: 52px;
+             height: 18px;
+             position: absolute;
+             left: 141px;
+             top: 156px;
+             background-image: url(../img/il26.png);
+         }
+         #mmp8 {
+             width: 75px;
+             height: 18px;
+             position: absolute;
+             left: 184px;
+             top: 87px;
+             background-image: url(../img/mmp8.png);
+         }
+         #pyy {
+             width: 44px;
+             height: 17px;
+             position: absolute;
+             left: 140px;
+             top: 110px;
+             background-image: url(../img/pyy.png);
+         }
+         #sher2 {
+             width: 80px;
+             height: 18px;
+             position: absolute;
+             left: 134px;
+             top: 41px;
+             background-image: url(../img/sher2.png);
+         }
+         #tnf_alpha {
+             width: 110px;
+             height: 22px;
+             position: absolute;
+             left: 126px;
+             top: 18px;
+             background-image: url(../img/tnf_alpha.png);
+         }
+         #bradFooter {
+             background: #fff;
+             width: 300px;
+             height: 48px;
+             position: absolute;
+             top: 202px;
+             #bradLogo {
+                 background-image: url(../img/logo.png);
+                 position: absolute;
+                 top: 14px;
+                 left: 205px;
+                 width: 80px;
+                 height: 20px;
+             }
+             #bradCtaButton {
+                 background: #fa7700;
+                 position: absolute;
+                 top: 14px;
+                 left: 15px;
+                 width: 108px;
+                 height: 20px;
+                 #bradCtaTxt {
+                     background-image: url(../img/ctat.png);
+                     position: absolute;
+                     top: 5px;
+                     left: 7px;
+                     width: 94px;
+                     height: 11px;
+                 }
+             }
+         }
+     }
+ }
+ 
+ button {
+     padding: 10px;
+     margin-top: 10px;
+ }
+ 
+ button:nth-child(1) {
+     margin-left: 10px;
+ }
+ 
+ #slider {
+     width: 300px;
+     margin: 10px;
+     background-color: #ff0;
+ }
